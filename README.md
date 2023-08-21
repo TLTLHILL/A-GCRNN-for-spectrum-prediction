@@ -21,6 +21,6 @@ The dataset for this project comes from the open source platform: https://electr
 |Time resolution|15 minutes|
 |The dimensionality of samples|151 × 2880|
 
-** ！！！The opening time of sensors on this platform is uncertain, and there may be some sensor shutdowns. **
+**！！！The opening time of sensors on this platform is uncertain, and there may be some sensor shutdowns.**
 ## Structure
-！[image]()
+！[image.png](/photo/A-GCRNN.png)
