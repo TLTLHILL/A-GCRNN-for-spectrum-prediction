@@ -23,4 +23,9 @@ The dataset for this project comes from the open source platform: https://electr
 
 **！！！The opening time of sensors on this platform is uncertain, and there may be some sensor shutdowns.**
 ## Structure
-！[image.png](/photo/A-GCRNN.png)
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
+
