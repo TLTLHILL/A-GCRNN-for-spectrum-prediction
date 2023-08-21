@@ -2,7 +2,7 @@
 This is a PyTorch implementation of A-GCRNN in the following paper: A-GCRNN: Attention Graph Convolution Recurrent Neural Network for Multi-band Spectrum Prediction.
 
 ## Structure
-<img src="https://github.com/TLTLHILL/A-GCRNN-for-spectrum-prediction/blob/main/photo/A-GCRNN.png" width="500" height="470" />
+<div align=center><img src="https://github.com/TLTLHILL/A-GCRNN-for-spectrum-prediction/blob/main/photo/A-GCRNN.png" width="500" height="470" /></div>
 
 ## Dataset
 The dataset for this project comes from the open source platform: https://electrosense.org
