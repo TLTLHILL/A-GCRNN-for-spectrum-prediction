@@ -60,9 +60,6 @@ def generate_torch_datasets(
         normalize=normalize,
     )
     print(train_X.shape)
-    # print(train_Y.shape)
-    # print('ppppppp',test_X.shape)
-    # print('lllllll',test_Y.shape)
     train_dataset = torch.utils.data.TensorDataset(
         torch.FloatTensor(train_X), torch.FloatTensor(train_Y)
     )
