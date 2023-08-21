@@ -8,3 +8,4 @@ This is a PyTorch implementation of A-GCRNN in the following paper: A-GCRNN: Att
 - pandas
 - matplotlib
 ## Dataset
+The dataset for this project comes from the open source platform: https://electrosense.org
