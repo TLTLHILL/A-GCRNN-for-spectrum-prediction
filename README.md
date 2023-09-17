@@ -56,6 +56,7 @@ python test_main.py --model_name AGCRNN --max_epochs 3000 --learning_rate 0.0001
 
 Run `tensorboard --logdir lightning_logs/version_0 --samples_per_plugin scalars=999999999` in terminal to view the prediction results and experimental indicators.
 # Citation
+Please cite the following paper if you use the code in your work:
 ```
 @ARTICLE{ZhangTVT2023a,
   author={Zhang, Xile and Guo, Lantu and Ben, Cui and Peng, Yang and Wang, Yu and Shi, Shengnan and Lin, Yun and Gui, Guan},
