@@ -90,11 +90,16 @@ class GCRNNCell(nn.Module):
 class Attention(nn.Module):
     def __init__(self,hidden_dim):
         super(Attention, self).__init__()
-        self.linear = nn.Linear(hidden_dim, hidden_dim)
+        self._hidden_dim = hidden_dim
+        self.weight_a = nn.Parameter(torch.Tensor(hidden_dim, 1))
+        self.weight_b = nn.Parameter(torch.Tensor(1, 1))
+        nn.init.xavier_uniform_(self.weight_a)
+        nn.init.xavier_uniform_(self.weight_b)
 
     def forward(self, inputs ):
-        attr1 = self.linear(inputs)
-        Atten = torch.softmax(attr1, dim=2)
+        attr1 = torch.matmul(inputs, self.weight_a)
+        attr2 = torch.matmul(attr1, self.weight_b)
+        Atten = torch.softmax(attr2, dim=2)
         output_c = torch.sum(Atten * inputs, dim=2, keepdim=True)
         return output_c,output_c
 
