@@ -1,5 +1,5 @@
 # A-GCRNN: Attention Graph Convolution Recurrent Neural Network for Multi-band Spectrum Prediction
-This is a PyTorch implementation of A-GCRNN in the following paper: A-GCRNN: Attention Graph Convolution Recurrent Neural Network for Multi-band Spectrum Prediction(https://ieeexplore.ieee.org/document/10251662).
+This is a PyTorch implementation of A-GCRNN in the following paper: A-GCRNN: Attention Graph Convolution Recurrent Neural Network for Multi-band Spectrum Prediction(https://ieeexplore.ieee.org/document/10251662). **# The dataset will be made publicly available after our next paper is accepted.**
 
 ## Structure
 <div align=center><img src="https://github.com/TLTLHILL/A-GCRNN-for-spectrum-prediction/blob/main/photo/A-GCRNN.png" width="500" height="470" /></div>
@@ -17,7 +17,7 @@ The dataset for this project comes from the open source platform: https://electr
 |Time resolution|15 minutes|
 |The dimensionality of samples|151 × 2880|
 
-**！！！The opening time of sensors on this platform is uncertain, and there may be some sensors shutdown. We will make the dataset public after the acceptance of our second paper.**
+**！！！The opening time of sensors on this platform is uncertain, and there may be some sensors shutdown. **
 
 ## Usage
 ### File description
